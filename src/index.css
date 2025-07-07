@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/tan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:"Bitcount Grid Double";
+}
+
+.todoContainer{
+    border-radius:2px;
+    margin-top: 100px;
+    margin-left: 500px;
+    border-color:black ;
+    border-style: solid;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+.main{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 0px;
+
+
+}
+
+
+#enterValue{
+    border-radius: 2px;
+    width: 380px;
+    height: 30px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.addTask{
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    position: sticky;
+    margin-bottom: 50px;
+
+}
+
+.you{
+    font-size: large;
+}
+
+.taskList {
+  flex: 1;
+  overflow-y: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  
+}
+
+.list {
+  font-size: 20px;
+  list-style: inside;
+  padding-left: 20px;
+  margin: 0;
+}
+
+
+.but{
+    height: 25px;
+    width: 80px;
+    font-size: 16px;
+}
+
